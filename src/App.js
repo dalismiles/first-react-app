@@ -1,22 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./girl.jpg";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <h1>dalilaiapichino.com</h1>
+        <ul>
+          <li>
+            {" "}
+            <a href="#">About</a>{" "}
+          </li>
+          <li>
+            {" "}
+            <a href="#">Works</a>{" "}
+          </li>
+          <li>
+            {" "}
+            <a href="#">Contact</a>{" "}
+          </li>
+        </ul>
+
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
+        <div className="progress">
+          <div className="progress-value"></div>
+        </div>
       </header>
     </div>
   );
